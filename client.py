@@ -10,3 +10,5 @@ print("Current socket timeout: %s",s.gettimeout())
 host_name = socket.gethostname()
 
 print("Host Name: %s",host_name)
+
+print("IP address: %s",socket.gethostbyname(hostname))
