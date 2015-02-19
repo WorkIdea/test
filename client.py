@@ -12,3 +12,5 @@ host_name = socket.gethostname()
 print("Host Name: %s",host_name)
 
 print("IP address: %s",socket.gethostbyname(host_name))
+print("")
+print("Este eh apenas um simples teste de sockts")
